@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adaptive Quiz | NoteAI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white min-h-screen">
+
+<!-- Header -->
+<div class="p-6 text-center text-2xl font-bold tracking-wide">
+  🧠 Adaptive Quiz Generator
+</div>
+
+<div class="max-w-4xl mx-auto p-6">
+
+  <!-- Glass Card -->
+  <div class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 shadow-xl">
+
+    <!-- Mode -->
+    <div class="mb-5">
+      <label class="block mb-2 font-semibold">Quiz Mode</label>
+      <select id="mode" class="w-full p-3 rounded-xl text-black">
+        <option value="preset">Preset Subject</option>
+        <option value="custom">Custom Topic</option>
+      </select>
+    </div>
+
+    <!-- Preset -->
+    <div id="presetSection" class="mb-5">
+      <label class="block mb-2 font-semibold">Select Subject</label>
+      <select id="subject" class="w-full p-3 rounded-xl text-black">
+        <option value="programming">Programming</option>
+        <option value="engineering">Engineering</option>
+        <option value="ai">AI-ML</option>
+        <option value="cyber">Cyber Security</option>
+      </select>
+    </div>
+
+    <!-- Custom Topic -->
+    <div id="customSection" class="mb-5 hidden">
+      <label class="block mb-2 font-semibold">Enter Topic</label>
+      <input id="customTopic"
+             class="w-full p-3 rounded-xl text-black"
+             placeholder="Example: JavaScript Closures">
+    </div>
+
+    <!-- Difficulty -->
+    <div class="mb-5">
+      <label class="block mb-2 font-semibold">Difficulty</label>
+      <select id="difficulty" class="w-full p-3 rounded-xl text-black">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
+    <!-- Question Count -->
+    <div class="mb-6">
+      <label class="block mb-2 font-semibold">Number of Questions</label>
+      <input type="number" id="questionCount"
+             value="5" min="1" max="10"
+             class="w-full p-3 rounded-xl text-black">
+    </div>
+
+    <!-- Generate Button -->
+    <button onclick="generateQuiz()"
+      class="w-full bg-indigo-600 hover:bg-indigo-700 transition p-3 rounded-xl font-semibold text-lg shadow-lg">
+      🚀 Generate Quiz
+    </button>
+
+  </div>
+
+  <!-- Quiz Area -->
+  <div id="quizArea" class="mt-10 space-y-6"></div>
+
+  <!-- Submit Button -->
+  <div class="text-center mt-6">
+    <button onclick="submitQuiz()"
+      id="submitBtn"
+      class="hidden bg-green-600 hover:bg-green-700 px-8 py-3 rounded-xl text-lg font-semibold shadow-lg">
+      Submit Answers
+    </button>
+  </div>
+
+  <!-- Result -->
+  <div id="result" class="mt-8 text-center text-2xl font-bold"></div>
+
+</div>
+
+<script src="js/quiz.js"></script>
+
+</body>
+</html>

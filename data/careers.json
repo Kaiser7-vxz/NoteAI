@@ -1,0 +1,334 @@
+{
+  "frontend_developer": {
+    "title": "Frontend Developer",
+    "stages": [
+      {
+        "title": "Stage 1: Fundamentals",
+        "skills": [
+          "HTML5",
+          "CSS3",
+          "JavaScript (ES6+)",
+          "Responsive Design",
+          "Git & GitHub"
+        ]
+      },
+      {
+        "title": "Stage 2: Core Frontend",
+        "skills": [
+          "React.js",
+          "State Management",
+          "API Integration",
+          "Routing",
+          "Component Architecture"
+        ]
+      },
+      {
+        "title": "Stage 3: Advanced",
+        "skills": [
+          "Next.js",
+          "Performance Optimization",
+          "Testing (Jest)",
+          "TypeScript",
+          "UI/UX Principles"
+        ]
+      }
+    ]
+  },
+
+  "backend_developer": {
+    "title": "Backend Developer",
+    "stages": [
+      {
+        "title": "Stage 1: Programming Foundations",
+        "skills": [
+          "Node.js / Python / Java",
+          "Data Structures",
+          "Algorithms",
+          "Git"
+        ]
+      },
+      {
+        "title": "Stage 2: Backend Core",
+        "skills": [
+          "REST APIs",
+          "Authentication & JWT",
+          "Databases (SQL & MongoDB)",
+          "MVC Architecture"
+        ]
+      },
+      {
+        "title": "Stage 3: Advanced",
+        "skills": [
+          "Microservices",
+          "Caching (Redis)",
+          "System Design",
+          "Security Best Practices"
+        ]
+      }
+    ]
+  },
+
+  "devops": {
+    "title": "DevOps Engineer",
+    "stages": [
+      {
+        "title": "Stage 1: Foundations",
+        "skills": [
+          "Linux",
+          "Networking Basics",
+          "Git",
+          "Shell Scripting"
+        ]
+      },
+      {
+        "title": "Stage 2: CI/CD & Containers",
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "CI/CD Pipelines",
+          "Jenkins / GitHub Actions"
+        ]
+      },
+      {
+        "title": "Stage 3: Cloud & Monitoring",
+        "skills": [
+          "AWS / Azure / GCP",
+          "Terraform",
+          "Monitoring (Prometheus)",
+          "Logging & Scaling"
+        ]
+      }
+    ]
+  },
+
+  "ai_data_scientist": {
+    "title": "AI & Data Scientist",
+    "stages": [
+      {
+        "title": "Stage 1: Foundations",
+        "skills": [
+          "Python",
+          "Statistics",
+          "Linear Algebra",
+          "Data Analysis (Pandas)"
+        ]
+      },
+      {
+        "title": "Stage 2: Machine Learning",
+        "skills": [
+          "Supervised Learning",
+          "Unsupervised Learning",
+          "Scikit-learn",
+          "Model Evaluation"
+        ]
+      },
+      {
+        "title": "Stage 3: Advanced AI",
+        "skills": [
+          "Deep Learning",
+          "TensorFlow / PyTorch",
+          "NLP",
+          "Computer Vision"
+        ]
+      }
+    ]
+  },
+
+  "machine_learning": {
+    "title": "Machine Learning Engineer",
+    "stages": [
+      {
+        "title": "Stage 1: Math & Programming",
+        "skills": [
+          "Python",
+          "Linear Algebra",
+          "Probability",
+          "Data Structures"
+        ]
+      },
+      {
+        "title": "Stage 2: ML Core",
+        "skills": [
+          "Regression",
+          "Classification",
+          "Neural Networks",
+          "Feature Engineering"
+        ]
+      },
+      {
+        "title": "Stage 3: Production ML",
+        "skills": [
+          "MLOps",
+          "Model Deployment",
+          "Docker",
+          "Scalable ML Systems"
+        ]
+      }
+    ]
+  },
+
+  "cyber_security": {
+    "title": "Cyber Security Specialist",
+    "stages": [
+      {
+        "title": "Stage 1: Basics",
+        "skills": [
+          "Networking",
+          "Linux",
+          "Security Fundamentals",
+          "Cryptography Basics"
+        ]
+      },
+      {
+        "title": "Stage 2: Security Practices",
+        "skills": [
+          "Ethical Hacking",
+          "Penetration Testing",
+          "OWASP Top 10",
+          "Firewalls"
+        ]
+      },
+      {
+        "title": "Stage 3: Advanced Security",
+        "skills": [
+          "Digital Forensics",
+          "Cloud Security",
+          "Malware Analysis",
+          "Incident Response"
+        ]
+      }
+    ]
+  },
+
+  "full_stack": {
+    "title": "Full Stack Developer",
+    "stages": [
+      {
+        "title": "Stage 1: Frontend",
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+        ]
+      },
+      {
+        "title": "Stage 2: Backend",
+        "skills": [
+          "Node.js",
+          "APIs",
+          "Databases",
+          "Authentication"
+        ]
+      },
+      {
+        "title": "Stage 3: Advanced",
+        "skills": [
+          "System Design",
+          "Deployment",
+          "DevOps Basics",
+          "Performance Optimization"
+        ]
+      }
+    ]
+  },
+
+  "mern_stack": {
+    "title": "MERN Stack Developer",
+    "stages": [
+      {
+        "title": "Stage 1: Frontend",
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+        ]
+      },
+      {
+        "title": "Stage 2: Backend",
+        "skills": [
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "REST APIs"
+        ]
+      },
+      {
+        "title": "Stage 3: Deployment",
+        "skills": [
+          "JWT Authentication",
+          "Cloud Deployment",
+          "State Management",
+          "Production Build"
+        ]
+      }
+    ]
+  },
+
+  "game_developer": {
+    "title": "Game Developer",
+    "stages": [
+      {
+        "title": "Stage 1: Programming Basics",
+        "skills": [
+          "C++ / C#",
+          "OOP",
+          "Data Structures",
+          "Math for Games"
+        ]
+      },
+      {
+        "title": "Stage 2: Game Engines",
+        "skills": [
+          "Unity",
+          "Unreal Engine",
+          "Physics Systems",
+          "Animation"
+        ]
+      },
+      {
+        "title": "Stage 3: Advanced",
+        "skills": [
+          "Multiplayer Systems",
+          "AI in Games",
+          "Optimization",
+          "Game Publishing"
+        ]
+      }
+    ]
+  },
+
+  "software_engineer": {
+    "title": "Software Engineer",
+    "stages": [
+      {
+        "title": "Stage 1: Core Programming",
+        "skills": [
+          "Data Structures",
+          "Algorithms",
+          "OOP",
+          "Git"
+        ]
+      },
+      {
+        "title": "Stage 2: Software Development",
+        "skills": [
+          "Frontend or Backend",
+          "Databases",
+          "APIs",
+          "Testing"
+        ]
+      },
+      {
+        "title": "Stage 3: Advanced Engineering",
+        "skills": [
+          "System Design",
+          "Scalability",
+          "Design Patterns",
+          "Cloud Architecture"
+        ]
+      }
+    ]
+  }
+}

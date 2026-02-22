@@ -1,0 +1,124 @@
+{
+  "programming": [
+    {
+      "id": "prog-1",
+      "title": "Programming Foundations",
+      "level": "Beginner",
+      "duration": "8 Weeks",
+      "description": "Learn core programming concepts, logic building, and data structures.",
+      "modules": [
+        "Introduction to Programming",
+        "Variables & Data Types",
+        "Control Structures (If, Loops)",
+        "Functions & Recursion",
+        "Data Structures (Arrays, Linked List)",
+        "Basic Algorithms (Sorting, Searching)"
+      ],
+      "projects": [
+        "Number Guessing Game",
+        "CLI Calculator",
+        "Mini Task Manager"
+      ],
+      "career": "Software Engineer, Backend Developer, Competitive Programmer"
+    }
+  ],
+
+  "web": [
+    {
+      "id": "web-1",
+      "title": "Full Stack Web Development",
+      "level": "Beginner to Advanced",
+      "duration": "12 Weeks",
+      "description": "Master frontend and backend web technologies.",
+      "modules": [
+        "HTML & Semantic Structure",
+        "CSS & Responsive Design",
+        "JavaScript & DOM",
+        "React Basics",
+        "Node.js & Express",
+        "MongoDB Database",
+        "Deployment & Hosting"
+      ],
+      "projects": [
+        "Portfolio Website",
+        "Todo App",
+        "Full Stack Blog Platform"
+      ],
+      "career": "Frontend Developer, Backend Developer, Full Stack Developer"
+    }
+  ],
+
+  "ai": [
+    {
+      "id": "ai-1",
+      "title": "AI & Machine Learning",
+      "level": "Intermediate",
+      "duration": "14 Weeks",
+      "description": "Understand AI fundamentals, ML algorithms, and deep learning.",
+      "modules": [
+        "Python for AI",
+        "Linear Algebra Basics",
+        "Statistics & Probability",
+        "Machine Learning (Regression, Classification)",
+        "Neural Networks",
+        "Deep Learning",
+        "Model Deployment"
+      ],
+      "projects": [
+        "Spam Email Classifier",
+        "Image Recognition Model",
+        "Stock Price Predictor"
+      ],
+      "career": "ML Engineer, Data Scientist, AI Researcher"
+    }
+  ],
+
+  "cyber": [
+    {
+      "id": "cyber-1",
+      "title": "Cyber Security Fundamentals",
+      "level": "Beginner",
+      "duration": "10 Weeks",
+      "description": "Learn how to secure systems and prevent cyber attacks.",
+      "modules": [
+        "Networking Basics",
+        "Operating Systems",
+        "Cryptography",
+        "Web Security",
+        "Ethical Hacking",
+        "Penetration Testing"
+      ],
+      "projects": [
+        "Network Scanner",
+        "Vulnerability Assessment",
+        "Security Audit Simulation"
+      ],
+      "career": "Cyber Security Analyst, Ethical Hacker, Security Engineer"
+    }
+  ],
+
+  "devops": [
+    {
+      "id": "devops-1",
+      "title": "DevOps & Cloud Engineering",
+      "level": "Intermediate",
+      "duration": "10 Weeks",
+      "description": "Learn CI/CD, containerization, and cloud deployment.",
+      "modules": [
+        "Linux Basics",
+        "Git & Version Control",
+        "CI/CD Pipelines",
+        "Docker",
+        "Kubernetes",
+        "AWS Basics",
+        "Monitoring & Logging"
+      ],
+      "projects": [
+        "Dockerized Web App",
+        "CI/CD Setup",
+        "Deploy App to Cloud"
+      ],
+      "career": "DevOps Engineer, Cloud Engineer, Site Reliability Engineer"
+    }
+  ]
+}

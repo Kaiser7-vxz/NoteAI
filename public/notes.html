@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Notes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 to-indigo-900 text-white h-screen flex">
+
+<!-- SIDEBAR -->
+<div class="w-80 bg-slate-800/80 backdrop-blur-md p-6 flex flex-col">
+
+  <h2 class="text-2xl font-bold mb-6">📝 Notes</h2>
+
+  <button onclick="newNote()" 
+    class="bg-indigo-500 py-2 rounded-xl hover:bg-indigo-600 transition mb-4">
+    + New Note
+  </button>
+
+  <div id="notesList" class="flex-1 overflow-y-auto space-y-3 pr-2"></div>
+
+</div>
+
+<!-- EDITOR -->
+<div class="flex-1 flex flex-col p-10">
+
+  <input id="title"
+    class="text-4xl font-bold bg-transparent border-b border-gray-600 mb-4 focus:outline-none"
+    placeholder="Untitled Note">
+
+  <p id="noteDate" class="text-sm text-gray-400 mb-6"></p>
+
+  <!-- CLEAN EDITOR (NO TOOLBAR) -->
+  <div id="editor"
+    contenteditable="true"
+    class="flex-1 bg-white text-black p-6 rounded-2xl shadow-lg overflow-y-auto focus:outline-none"
+    placeholder="Start writing...">
+  </div>
+
+  <div class="mt-6 flex gap-4">
+    <button onclick="saveNote()" 
+      class="bg-indigo-500 px-6 py-2 rounded-xl hover:bg-indigo-600">
+      Save
+    </button>
+
+    <button onclick="deleteNote()" 
+      class="bg-red-500 px-6 py-2 rounded-xl hover:bg-red-600">
+      Delete
+    </button>
+  </div>
+
+</div>
+
+<script src="js/notes.js"></script>
+
+</body>
+</html>

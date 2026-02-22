@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career Roadmap | NoteAI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white min-h-screen">
+
+<div class="p-6 text-center text-3xl font-bold">
+  🚀 Career Roadmap Generator
+</div>
+
+<div class="max-w-5xl mx-auto p-6">
+
+  <!-- Career Selector -->
+  <div class="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-2xl shadow-xl mb-8">
+    <label class="block mb-3 text-lg font-semibold">Select Career Path</label>
+
+    <select id="careerSelect"
+      class="w-full p-3 rounded-xl text-black mb-4">
+      <option value="">-- Choose Career --</option>
+      <option value="frontend_developer">Frontend Developer</option>
+      <option value="backend_developer">Backend Developer</option>
+      <option value="full_stack">Full Stack Developer</option>
+      <option value="mern_stack">MERN Stack Developer</option>
+      <option value="devops">DevOps Engineer</option>
+      <option value="ai_data_scientist">AI & Data Scientist</option>
+      <option value="machine_learning">Machine Learning Engineer</option>
+      <option value="cyber_security">Cyber Security</option>
+      <option value="game_developer">Game Developer</option>
+      <option value="software_engineer">Software Engineer</option>
+    </select>
+
+    <button onclick="generateRoadmap()"
+      class="w-full bg-indigo-600 hover:bg-indigo-700 p-3 rounded-xl font-semibold text-lg shadow-lg transition">
+      Generate Roadmap
+    </button>
+  </div>
+
+  <!-- Progress -->
+  <div id="progressContainer" class="hidden mb-8">
+    <div class="mb-2 font-semibold">Progress</div>
+    <div class="w-full bg-slate-700 rounded-full h-4">
+      <div id="progressBar"
+        class="bg-green-500 h-4 rounded-full transition-all duration-500"
+        style="width:0%">
+      </div>
+    </div>
+  </div>
+
+  <!-- Roadmap Area -->
+  <div id="roadmapContainer" class="space-y-6"></div>
+
+</div>
+
+<script src="js/roadmap.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "keywords": ["javascript", "js"],
+    "answer": "JavaScript is a versatile and high-level programming language primarily used to create interactive and dynamic content on websites. It runs directly in web browsers and also on servers through environments like Node.js. JavaScript allows developers to build modern web applications, real-time systems, games, and even mobile apps. Because of its flexibility and massive ecosystem, it remains one of the most in-demand programming languages in the IT industry."
+  },
+  {
+    "keywords": ["html"],
+    "answer": "HTML, or HyperText Markup Language, is the foundational language used to structure web pages. It defines elements such as headings, paragraphs, images, links, and forms. HTML does not handle styling or logic, but it provides the structural backbone of every website. Without HTML, browsers would not understand how to display web content properly."
+  },
+  {
+    "keywords": ["css"],
+    "answer": "CSS, or Cascading Style Sheets, is used to control the visual appearance of web pages. It manages layout, colors, fonts, spacing, animations, and responsiveness across different screen sizes. CSS works together with HTML to create attractive and user-friendly interfaces. Modern CSS frameworks and techniques allow developers to build highly responsive and visually engaging designs."
+  },
+  {
+    "keywords": ["python"],
+    "answer": "Python is a powerful, easy-to-learn programming language widely used in web development, artificial intelligence, machine learning, automation, cybersecurity, and data science. Its simple syntax makes it beginner-friendly, while its powerful libraries make it suitable for advanced development. Python continues to grow in popularity due to its versatility and strong community support."
+  },
+  {
+    "keywords": ["data structure", "data structures"],
+    "answer": "Data structures are ways of organizing and storing data efficiently so it can be accessed and modified effectively. Common examples include arrays, linked lists, stacks, queues, trees, and graphs. Understanding data structures is crucial for writing optimized programs and solving technical interview problems."
+  },
+  {
+    "keywords": ["algorithm", "algorithms"],
+    "answer": "An algorithm is a step-by-step procedure or formula for solving a specific problem. Efficient algorithms help reduce time and space complexity in software applications. Examples include sorting algorithms like QuickSort and searching algorithms like Binary Search. Learning algorithms is essential for programming interviews and system optimization."
+  },
+  {
+    "keywords": ["artificial intelligence", "ai"],
+    "answer": "Artificial Intelligence, commonly known as AI, refers to the simulation of human intelligence in machines. AI systems can perform tasks such as learning, reasoning, problem-solving, speech recognition, and decision-making. AI is used in applications like chatbots, recommendation systems, autonomous vehicles, and healthcare diagnostics. It is one of the fastest-growing fields in technology today."
+  },
+  {
+    "keywords": ["machine learning", "ml"],
+    "answer": "Machine Learning is a subset of Artificial Intelligence that enables systems to learn from data and improve performance without being explicitly programmed. Instead of writing rules manually, developers train models using datasets. Machine learning is used in image recognition, fraud detection, natural language processing, and recommendation systems."
+  },
+  {
+    "keywords": ["software engineering"],
+    "answer": "Software Engineering is the systematic process of designing, developing, testing, and maintaining software systems. It combines programming knowledge with engineering principles to create reliable and scalable applications. Software engineers work on web applications, mobile apps, enterprise systems, and AI platforms. The field requires knowledge of programming, system design, databases, and problem-solving skills."
+  },
+  {
+    "keywords": ["future of software engineering", "does software engineering has a future", "does software engineering have a future"],
+    "answer": "Yes, software engineering has a very strong future. As businesses, governments, and individuals increasingly rely on digital systems, the demand for skilled software engineers continues to grow worldwide. Emerging technologies such as Artificial Intelligence, cloud computing, cybersecurity, blockchain, and Internet of Things are expanding career opportunities. While tools and technologies evolve, the need for professionals who can design, build, and maintain software systems will remain essential for decades."
+  },
+  {
+    "keywords": ["engineering"],
+    "answer": "Engineering is the application of scientific and mathematical principles to design and build systems, machines, and structures that solve real-world problems. Fields include mechanical, civil, electrical, computer, and software engineering. Engineering plays a vital role in technological advancement and infrastructure development."
+  },
+  {
+    "keywords": ["career in ai"],
+    "answer": "Building a career in Artificial Intelligence requires a strong foundation in mathematics, statistics, and programming, especially Python. Students should learn machine learning algorithms, deep learning frameworks, and work on real-world projects. AI careers are highly promising due to increasing automation and data-driven technologies across industries."
+  },
+  {
+    "keywords": ["career in programming"],
+    "answer": "A career in programming offers strong job stability and growth opportunities. To succeed, focus on mastering one programming language, understanding data structures and algorithms, and building real-world projects. Continuous learning is important because technology evolves rapidly."
+  },
+  {
+    "keywords": ["how to study effectively"],
+    "answer": "To study effectively, focus on understanding concepts instead of memorizing them. Use active recall techniques, spaced repetition, and practice solving problems daily. Take short breaks, avoid distractions, and revise consistently. Building projects and applying knowledge practically improves long-term retention."
+  }
+]

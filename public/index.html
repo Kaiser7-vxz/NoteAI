@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NoteAI Platform</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:#0a0000; 
+    color:#e5e7eb; 
+    overflow-x:hidden;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    width:200%;
+    height:200%;
+    background:radial-gradient(circle at 30% 30%, #2563eb, transparent 40%),
+               radial-gradient(circle at 70% 60%, #9333ea, transparent 40%),
+               radial-gradient(circle at 40% 80%, #14b8a6, transparent 40%);
+    animation:moveBg 15s infinite alternate ease-in-out;
+    z-index:-2;
+}
+
+@keyframes moveBg{
+    from{ transform:translate(0,0); }
+    to{ transform:translate(-10%, -10%); }
+}
+
+.blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(120px);
+    opacity:0.5;
+    animation:float 8s infinite alternate ease-in-out;
+    z-index:-1;
+}
+
+.blob1{ width:300px;height:300px;background:#2563eb; top:10%;left:5%; }
+.blob2{ width:350px;height:350px;background:#9333ea; bottom:10%;right:5%; animation-delay:2s; }
+
+@keyframes float{
+    from{ transform:translateY(0); }
+    to{ transform:translateY(-40px); }
+}
+
+.header{
+    padding:30px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header h1{
+    font-size:28px;
+    color:#e5e7eb;
+}
+
+.logo{
+    font-size:26px;
+    padding:14px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    transition:0.4s;
+}
+
+.logo:hover{
+    transform:rotate(20deg) scale(1.15);
+    box-shadow:0 0 20px #fff;
+}
+
+.description{
+    text-align:center;
+    margin-top:30px;
+    font-size:18px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    opacity:0;
+    transform:translateY(30px);
+    animation:fadeUp 1s forwards;
+    color:#f3f4f6;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+@keyframes fadeUp{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:70px 40px;
+    flex-wrap:wrap;
+    perspective:1000px;
+}
+
+.card{
+    width:260px;
+    padding:40px 25px;
+    border-radius:20px;
+    background: rgba(17,24,39,0.7); 
+    border: 1px solid rgba(255,255,255,0.05);
+    text-align:center;
+    transition:0.3s;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+    color:#e5e7eb;
+}
+
+.icon{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+    margin:0 auto 20px;
+    color:white;
+    transition:0.4s;
+}
+
+.card1 .icon{ background:#3b82f6; }
+.card2 .icon{ background:#14b8a6; }
+.card3 .icon{ background:#a855f7; }
+.card4 .icon{ background:#f97316; }
+
+/* ✅ ADDED COURSES STYLE */
+.card5 .icon{ background:#22c55e; }
+
+@keyframes cardGlowBlue{
+    0%,100% { box-shadow:0 0 15px #3b82f6,0 0 30px #3b82f6; }
+    50% { box-shadow:0 0 30px #3b82f6,0 0 60px #3b82f6; }
+}
+@keyframes cardGlowGreen{
+    0%,100% { box-shadow:0 0 15px #14b8a6,0 0 30px #14b8a6; }
+    50% { box-shadow:0 0 30px #14b8a6,0 0 60px #14b8a6; }
+}
+@keyframes cardGlowPurple{
+    0%,100% { box-shadow:0 0 15px #a855f7,0 0 30px #a855f7; }
+    50% { box-shadow:0 0 30px #a855f7,0 0 60px #a855f7; }
+}
+@keyframes cardGlowOrange{
+    0%,100% { box-shadow:0 0 15px #f97316,0 0 30px #f97316; }
+    50% { box-shadow:0 0 30px #f97316,0 0 60px #f97316; }
+}
+
+/* ✅ COURSES GLOW */
+@keyframes cardGlowGreen2{
+    0%,100% { box-shadow:0 0 15px #22c55e,0 0 30px #22c55e; }
+    50% { box-shadow:0 0 30px #22c55e,0 0 60px #22c55e; }
+}
+
+.card1:hover{ animation: cardGlowBlue 2s infinite alternate; }
+.card2:hover{ animation: cardGlowGreen 2s infinite alternate; }
+.card3:hover{ animation: cardGlowPurple 2s infinite alternate; }
+.card4:hover{ animation: cardGlowOrange 2s infinite alternate; }
+.card5:hover{ animation: cardGlowGreen2 2s infinite alternate; }
+
+@media(max-width:768px){
+    .card-container{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+
+<div class="header">
+    <h1>NOTEAI</h1>
+    <div class="logo">
+        <i class="fa-solid fa-graduation-cap"></i>
+    </div>
+</div>
+
+<div class="description">
+    NoteAI transforms the way students learn with AI-powered tools for studying, assessment, and career growth.
+</div>
+
+<div class="card-container">
+
+    <a href="assistant.html" class="card card1">
+        <div class="icon"><i class="fa-solid fa-robot"></i></div>
+        <h3>AI Study Assistant</h3>
+        <p>24/7 intelligent tutor answering questions instantly.</p>
+    </a>
+
+    <a href="notes.html" class="card card2">
+        <div class="icon"><i class="fa-solid fa-book-open"></i></div>
+        <h3>Smart Notes</h3>
+        <p>AI-enhanced notes with summaries and resources.</p>
+    </a>
+
+    <a href="quiz.html" class="card card3">
+        <div class="icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>Adaptive Quizzes</h3>
+        <p>Personalized AI-generated assessments.</p>
+    </a>
+
+    <a href="roadmap.html" class="card card4">
+        <div class="icon"><i class="fa-solid fa-road"></i></div>
+        <h3>Career Roadmap</h3>
+        <p>Personalized career path planning with AI guidance.</p>
+    </a>
+
+    <!-- ✅ ADDED COURSES CARD -->
+    <a href="courses.html" class="card card5">
+        <div class="icon"><i class="fa-solid fa-video"></i></div>
+        <h3>Courses</h3>
+        <p>Structured learning paths with curated content.</p>
+    </a>
+
+</div>
+
+</body>
+</html>
