@@ -9,17 +9,17 @@ The platform provides a personalized and interactive learning experience by inte
 
 🎯 Core Objective
 
-1. The main goal of NoteAI is to:
+The main goal of NoteAI is to:
 
-2. Simplify learning through structured digital tools
+1. Simplify learning through structured digital tools
 
-3. Provide AI-like academic assistance without external APIs
+2. Provide AI-like academic assistance without external APIs
 
-4. Enable self-paced education
+3. Enable self-paced education
 
-5. Offer guided career planning
+4. Offer guided career planning
 
-6. Create an all-in-one student productivity ecosystem
+5. Create an all-in-one student productivity ecosystem
 
 
 🚀 Installation Method
